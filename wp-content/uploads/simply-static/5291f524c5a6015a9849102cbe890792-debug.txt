@@ -1,0 +1,1357 @@
+[2024-10-19 15:00:03] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-10-19 15:00:03] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
+[2024-10-19 15:00:03] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-10-19 15:00:05] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-10-19 15:00:05] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-10-19 15:00:05] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-10-19 15:00:05] [class-ss-setup-task.php:33] Creating archive directory: D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003\
+[2024-10-19 15:00:05] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/art-by-sapna/
+[2024-10-19 15:00:05] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-10-19 15:00:05] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-19 15:00:05] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-19 15:00:05] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-10-19 15:00:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/
+[2024-10-19 15:00:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-10-19 15:00:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c975db7f0-5WDs75.tmp
+[2024-10-19 15:00:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/?simply_static_page=165
+[2024-10-19 15:00:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/?simply_static_page=165
+[2024-10-19 15:00:07] [class-ss-url-fetcher.php:103] Filesize: 211120 bytes
+[2024-10-19 15:00:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-19 15:00:07] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-10-19 15:00:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c975db7f0-5WDs75.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/index.html
+[2024-10-19 15:00:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:08] [class-ss-fetch-urls-task.php:159] Adding 68 URLs to the queue
+[2024-10-19 15:00:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:08] [class-ss-page.php:119] Checking Content Identical:1e05c0418ca0d198a026ece9296ca850afca9634===. Value: FALSE
+[2024-10-19 15:00:08] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-10-19 15:00:08] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-19 15:00:08] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-19 15:00:08] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-19 15:00:08] [class-ss-fetch-urls-task.php:69] Total pages: 68; Pages remaining: 67
+[2024-10-19 15:00:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna
+[2024-10-19 15:00:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:50; Total: 68
+[2024-10-19 15:00:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c978bb2fc-7SFO02.tmp
+[2024-10-19 15:00:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna?simply_static_page=166
+[2024-10-19 15:00:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna?simply_static_page=166
+[2024-10-19 15:00:08] [class-ss-url-fetcher.php:103] Filesize: 360 bytes
+[2024-10-19 15:00:08] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-10-19 15:00:08] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-19 15:00:08] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/art-by-sapna/
+[2024-10-19 15:00:08] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-10-19 15:00:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/my-story/
+[2024-10-19 15:00:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:49; Total: 68
+[2024-10-19 15:00:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c978c1539-8wjmu4.tmp
+[2024-10-19 15:00:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/my-story/?simply_static_page=167
+[2024-10-19 15:00:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/my-story/?simply_static_page=167
+[2024-10-19 15:00:10] [class-ss-url-fetcher.php:103] Filesize: 149785 bytes
+[2024-10-19 15:00:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-19 15:00:10] [class-ss-url-fetcher.php:233] New filename for static page: /my-story/index.html
+[2024-10-19 15:00:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c978c1539-8wjmu4.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/my-story/index.html
+[2024-10-19 15:00:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:11] [class-ss-fetch-urls-task.php:159] Adding 55 URLs to the queue
+[2024-10-19 15:00:11] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:11] [class-ss-page.php:119] Checking Content Identical:84ea0d8a871b04c5d29250e78253d72503e98383===. Value: FALSE
+[2024-10-19 15:00:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/purchase/
+[2024-10-19 15:00:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:48; Total: 68
+[2024-10-19 15:00:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c97b4810f-ClN3lX.tmp
+[2024-10-19 15:00:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/purchase/?simply_static_page=168
+[2024-10-19 15:00:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/purchase/?simply_static_page=168
+[2024-10-19 15:00:12] [class-ss-url-fetcher.php:103] Filesize: 166037 bytes
+[2024-10-19 15:00:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-19 15:00:12] [class-ss-url-fetcher.php:233] New filename for static page: /purchase/index.html
+[2024-10-19 15:00:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c97b4810f-ClN3lX.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/purchase/index.html
+[2024-10-19 15:00:12] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:13] [class-ss-fetch-urls-task.php:159] Adding 59 URLs to the queue
+[2024-10-19 15:00:13] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:14] [class-ss-page.php:119] Checking Content Identical:0c3f1e318f87b9878a32b3cadfe150fc29082e4e===. Value: FALSE
+[2024-10-19 15:00:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/blog/
+[2024-10-19 15:00:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:47; Total: 68
+[2024-10-19 15:00:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c97e0f081-Lj0dWT.tmp
+[2024-10-19 15:00:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/blog/?simply_static_page=169
+[2024-10-19 15:00:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/blog/?simply_static_page=169
+[2024-10-19 15:00:16] [class-ss-url-fetcher.php:103] Filesize: 163822 bytes
+[2024-10-19 15:00:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-19 15:00:16] [class-ss-url-fetcher.php:233] New filename for static page: /blog/index.html
+[2024-10-19 15:00:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c97e0f081-Lj0dWT.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/blog/index.html
+[2024-10-19 15:00:16] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:17] [class-ss-fetch-urls-task.php:159] Adding 58 URLs to the queue
+[2024-10-19 15:00:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:17] [class-ss-page.php:119] Checking Content Identical:a8d7d65e00df11124116dab9f8d0aa77021ac466===. Value: FALSE
+[2024-10-19 15:00:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/contact/
+[2024-10-19 15:00:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:46; Total: 68
+[2024-10-19 15:00:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c981abc31-vMiQGX.tmp
+[2024-10-19 15:00:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/contact/?simply_static_page=170
+[2024-10-19 15:00:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/contact/?simply_static_page=170
+[2024-10-19 15:00:19] [class-ss-url-fetcher.php:103] Filesize: 134588 bytes
+[2024-10-19 15:00:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-19 15:00:19] [class-ss-url-fetcher.php:233] New filename for static page: /contact/index.html
+[2024-10-19 15:00:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c981abc31-vMiQGX.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/contact/index.html
+[2024-10-19 15:00:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:20] [class-ss-fetch-urls-task.php:159] Adding 50 URLs to the queue
+[2024-10-19 15:00:20] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:20] [class-ss-page.php:119] Checking Content Identical:4e69f65ebae7c93eedbc56e275d950b432fb7e99===. Value: FALSE
+[2024-10-19 15:00:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/hello-world/
+[2024-10-19 15:00:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 68
+[2024-10-19 15:00:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c984c354b-Y9c7X1.tmp
+[2024-10-19 15:00:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/hello-world/?simply_static_page=171
+[2024-10-19 15:00:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/hello-world/?simply_static_page=171
+[2024-10-19 15:00:22] [class-ss-url-fetcher.php:103] Filesize: 145878 bytes
+[2024-10-19 15:00:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-19 15:00:22] [class-ss-url-fetcher.php:233] New filename for static page: /hello-world/index.html
+[2024-10-19 15:00:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c984c354b-Y9c7X1.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/hello-world/index.html
+[2024-10-19 15:00:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:23] [class-ss-fetch-urls-task.php:159] Adding 55 URLs to the queue
+[2024-10-19 15:00:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:23] [class-ss-page.php:119] Checking Content Identical:cf0c3688dc6397915a1511f7dc6e7dbb638705dd===. Value: FALSE
+[2024-10-19 15:00:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/donec-vitae-massa-enim-leo-eu/
+[2024-10-19 15:00:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 68
+[2024-10-19 15:00:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c987ca80f-Q99r5O.tmp
+[2024-10-19 15:00:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/donec-vitae-massa-enim-leo-eu/?simply_static_page=172
+[2024-10-19 15:00:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/donec-vitae-massa-enim-leo-eu/?simply_static_page=172
+[2024-10-19 15:00:25] [class-ss-url-fetcher.php:103] Filesize: 149234 bytes
+[2024-10-19 15:00:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-19 15:00:25] [class-ss-url-fetcher.php:233] New filename for static page: /donec-vitae-massa-enim-leo-eu/index.html
+[2024-10-19 15:00:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c987ca80f-Q99r5O.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/donec-vitae-massa-enim-leo-eu/index.html
+[2024-10-19 15:00:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:26] [class-ss-fetch-urls-task.php:159] Adding 56 URLs to the queue
+[2024-10-19 15:00:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:26] [class-ss-page.php:119] Checking Content Identical:cf56b2d691815189d9ac8ee31eaa2854c6e864f3===. Value: FALSE
+[2024-10-19 15:00:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/aliquam-justo-neque-quis-eros/
+[2024-10-19 15:00:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 68
+[2024-10-19 15:00:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c98aba0d4-ZtkaAZ.tmp
+[2024-10-19 15:00:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/aliquam-justo-neque-quis-eros/?simply_static_page=173
+[2024-10-19 15:00:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/aliquam-justo-neque-quis-eros/?simply_static_page=173
+[2024-10-19 15:00:28] [class-ss-url-fetcher.php:103] Filesize: 149255 bytes
+[2024-10-19 15:00:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-19 15:00:28] [class-ss-url-fetcher.php:233] New filename for static page: /aliquam-justo-neque-quis-eros/index.html
+[2024-10-19 15:00:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c98aba0d4-ZtkaAZ.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/aliquam-justo-neque-quis-eros/index.html
+[2024-10-19 15:00:28] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:29] [class-ss-fetch-urls-task.php:159] Adding 57 URLs to the queue
+[2024-10-19 15:00:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:29] [class-ss-page.php:119] Checking Content Identical:eeca7fa3503374d812684aa65acbb2d782de17ca===. Value: FALSE
+[2024-10-19 15:00:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/morbi-ut-massa-eget-dui-molestie/
+[2024-10-19 15:00:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 68
+[2024-10-19 15:00:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c98d56d1d-90btJu.tmp
+[2024-10-19 15:00:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/morbi-ut-massa-eget-dui-molestie/?simply_static_page=174
+[2024-10-19 15:00:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/morbi-ut-massa-eget-dui-molestie/?simply_static_page=174
+[2024-10-19 15:00:31] [class-ss-url-fetcher.php:103] Filesize: 149275 bytes
+[2024-10-19 15:00:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-19 15:00:31] [class-ss-url-fetcher.php:233] New filename for static page: /morbi-ut-massa-eget-dui-molestie/index.html
+[2024-10-19 15:00:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c98d56d1d-90btJu.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/morbi-ut-massa-eget-dui-molestie/index.html
+[2024-10-19 15:00:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:31] [class-ss-fetch-urls-task.php:159] Adding 57 URLs to the queue
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:32] [class-ss-page.php:119] Checking Content Identical:ff12771b61cd449efa858dcdd4d96c9595ee2451===. Value: FALSE
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/icon3.png
+[2024-10-19 15:00:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 68
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99029557-cvmQ8u.tmp
+[2024-10-19 15:00:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/icon3.png?simply_static_page=175
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/icon3.png?simply_static_page=175
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:103] Filesize: 6079 bytes
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/icon3.png
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99029557-cvmQ8u.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/icon3.png
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:32] [class-ss-page.php:119] Checking Content Identical:5e294932974cb867dcb1027146785f7b66a56cf1===. Value: FALSE
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/icon2.png
+[2024-10-19 15:00:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 68
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99031da5-37ro9K.tmp
+[2024-10-19 15:00:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/icon2.png?simply_static_page=176
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/icon2.png?simply_static_page=176
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:103] Filesize: 5958 bytes
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/icon2.png
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99031da5-37ro9K.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/icon2.png
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:32] [class-ss-page.php:119] Checking Content Identical:dd79d2e2ce6c2b0788e552c9db4cbaf90e754bea===. Value: FALSE
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/icon1.png
+[2024-10-19 15:00:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 68
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9903dc8a-8iSsIy.tmp
+[2024-10-19 15:00:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/icon1.png?simply_static_page=177
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/icon1.png?simply_static_page=177
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:103] Filesize: 5027 bytes
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/icon1.png
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9903dc8a-8iSsIy.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/icon1.png
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:32] [class-ss-page.php:119] Checking Content Identical:6dcb68d3640e7290283c4e9278ae40a54c505650===. Value: FALSE
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/icon4.png
+[2024-10-19 15:00:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 68
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99053659-MrHcDw.tmp
+[2024-10-19 15:00:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/icon4.png?simply_static_page=178
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/icon4.png?simply_static_page=178
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:103] Filesize: 6641 bytes
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/icon4.png
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99053659-MrHcDw.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/icon4.png
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:32] [class-ss-page.php:119] Checking Content Identical:ac90d7218166c5f1a23c6012e3afc9f4c955e4e1===. Value: FALSE
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/img3.png
+[2024-10-19 15:00:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 68
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99063b5b-E1EV6s.tmp
+[2024-10-19 15:00:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/img3.png?simply_static_page=179
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/img3.png?simply_static_page=179
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:103] Filesize: 101121 bytes
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/img3.png
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99063b5b-E1EV6s.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/img3.png
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:32] [class-ss-page.php:119] Checking Content Identical:ccfd4d218acb7187eca5484388765bae22afc934===. Value: FALSE
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/img2.png
+[2024-10-19 15:00:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 68
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99074bae-qzsmFX.tmp
+[2024-10-19 15:00:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/img2.png?simply_static_page=180
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/img2.png?simply_static_page=180
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:103] Filesize: 133323 bytes
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/img2.png
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99074bae-qzsmFX.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/img2.png
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:32] [class-ss-page.php:119] Checking Content Identical:593680fc4868b364b0b958bdd205038a152d786e===. Value: FALSE
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/img.png
+[2024-10-19 15:00:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 68
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c990807bf-NmIihm.tmp
+[2024-10-19 15:00:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/img.png?simply_static_page=181
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/img.png?simply_static_page=181
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:103] Filesize: 35998 bytes
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/img.png
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c990807bf-NmIihm.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/img.png
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:32] [class-ss-page.php:119] Checking Content Identical:75bcaebd0fc748c01c13122b6bc8416c08bd63dd===. Value: FALSE
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/logo6.png
+[2024-10-19 15:00:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 68
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9908b2b8-l69S8y.tmp
+[2024-10-19 15:00:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/logo6.png?simply_static_page=182
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/logo6.png?simply_static_page=182
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:103] Filesize: 6157 bytes
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/logo6.png
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9908b2b8-l69S8y.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/logo6.png
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:32] [class-ss-page.php:119] Checking Content Identical:5ce4a10e88c644cff43b0f386de13359f4e8f0c2===. Value: FALSE
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/logo5.png
+[2024-10-19 15:00:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 68
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99098675-qhjefS.tmp
+[2024-10-19 15:00:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/logo5.png?simply_static_page=183
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/logo5.png?simply_static_page=183
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:103] Filesize: 3100 bytes
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/logo5.png
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99098675-qhjefS.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/logo5.png
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:32] [class-ss-page.php:119] Checking Content Identical:e4673d999e8ddd54116beca5d14f9dd97ad2dd2c===. Value: FALSE
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/logo4.png
+[2024-10-19 15:00:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 68
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c990a3df1-eNq6HY.tmp
+[2024-10-19 15:00:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/logo4.png?simply_static_page=184
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/logo4.png?simply_static_page=184
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:103] Filesize: 12794 bytes
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/logo4.png
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c990a3df1-eNq6HY.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/logo4.png
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:32] [class-ss-page.php:119] Checking Content Identical:9d45baa4592728a2a3918aca9fdd9c50d6cce430===. Value: FALSE
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/logo1.png
+[2024-10-19 15:00:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 68
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c990ae3bf-LwMqj6.tmp
+[2024-10-19 15:00:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/logo1.png?simply_static_page=185
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/logo1.png?simply_static_page=185
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:103] Filesize: 5800 bytes
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/logo1.png
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c990ae3bf-LwMqj6.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/logo1.png
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:32] [class-ss-page.php:119] Checking Content Identical:c650644442cb801683f4ed06db5c44c71ef4fbfe===. Value: FALSE
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/logo3.png
+[2024-10-19 15:00:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 68
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c990b7b5f-rTlgpU.tmp
+[2024-10-19 15:00:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/logo3.png?simply_static_page=186
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/logo3.png?simply_static_page=186
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:103] Filesize: 7289 bytes
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/logo3.png
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c990b7b5f-rTlgpU.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/logo3.png
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:32] [class-ss-page.php:119] Checking Content Identical:3a445cc69fc722cc066c183b20e87efc3b873e76===. Value: FALSE
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/logo2.png
+[2024-10-19 15:00:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 68
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c990c1324-rRQCFX.tmp
+[2024-10-19 15:00:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/logo2.png?simply_static_page=187
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/logo2.png?simply_static_page=187
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:103] Filesize: 2309 bytes
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/logo2.png
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c990c1324-rRQCFX.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/logo2.png
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:32] [class-ss-page.php:119] Checking Content Identical:254ec0ffdfa831d559dc1ff3e078107bb3724fcf===. Value: FALSE
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/382559676_6914813958581333_2359484125749206222_n.jpg
+[2024-10-19 15:00:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 68
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c990cbe7d-HioPbZ.tmp
+[2024-10-19 15:00:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/382559676_6914813958581333_2359484125749206222_n.jpg?simply_static_page=188
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/382559676_6914813958581333_2359484125749206222_n.jpg?simply_static_page=188
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:103] Filesize: 146448 bytes
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/382559676_6914813958581333_2359484125749206222_n.jpg
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c990cbe7d-HioPbZ.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/382559676_6914813958581333_2359484125749206222_n.jpg
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:32] [class-ss-page.php:119] Checking Content Identical:68ebd529c233f021d7c8b75bce3bf9b25e504cb1===. Value: FALSE
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-includes/js/jquery/jquery.min.js
+[2024-10-19 15:00:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 68
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c990dd88b-hCKolg.tmp
+[2024-10-19 15:00:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-includes/js/jquery/jquery.min.js?simply_static_page=189
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-includes/js/jquery/jquery.min.js?simply_static_page=189
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2024-10-19 15:00:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c990dd88b-hCKolg.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-includes/js/jquery/jquery.min.js
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:33] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-19 15:00:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 68
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9911ce1f-SCS97y.tmp
+[2024-10-19 15:00:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=190
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=190
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9911ce1f-SCS97y.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:33] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-includes/js/dist/hooks.min.js
+[2024-10-19 15:00:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 68
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99133fb8-xNIGMO.tmp
+[2024-10-19 15:00:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-includes/js/dist/hooks.min.js?simply_static_page=191
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-includes/js/dist/hooks.min.js?simply_static_page=191
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:103] Filesize: 4307 bytes
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/hooks.min.js
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99133fb8-xNIGMO.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-includes/js/dist/hooks.min.js
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:33] [class-ss-page.php:119] Checking Content Identical:ee6aa3d65b474309376468b24bb6f829a4514809===. Value: FALSE
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-includes/js/dist/i18n.min.js
+[2024-10-19 15:00:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 68
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9913b52f-JHutQR.tmp
+[2024-10-19 15:00:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-includes/js/dist/i18n.min.js?simply_static_page=192
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-includes/js/dist/i18n.min.js?simply_static_page=192
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:103] Filesize: 9141 bytes
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/i18n.min.js
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9913b52f-JHutQR.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-includes/js/dist/i18n.min.js
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:33] [class-ss-page.php:119] Checking Content Identical:9997a1745f48bdd233dbe9bd8164daa53eba105b===. Value: FALSE
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/contact-form-7/includes/swv/js/index.js
+[2024-10-19 15:00:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 68
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99159c36-wfLeyz.tmp
+[2024-10-19 15:00:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/contact-form-7/includes/swv/js/index.js?simply_static_page=193
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/contact-form-7/includes/swv/js/index.js?simply_static_page=193
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:103] Filesize: 11513 bytes
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/contact-form-7/includes/swv/js/index.js
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99159c36-wfLeyz.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/contact-form-7/includes/swv/js/index.js
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:33] [class-ss-page.php:119] Checking Content Identical:ad12044651ffac0badcd0e42f32edef91678b1ff===. Value: FALSE
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/contact-form-7/includes/js/index.js
+[2024-10-19 15:00:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 68
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9916a341-m6x9gM.tmp
+[2024-10-19 15:00:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/contact-form-7/includes/js/index.js?simply_static_page=194
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/contact-form-7/includes/js/index.js?simply_static_page=194
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:103] Filesize: 13423 bytes
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/contact-form-7/includes/js/index.js
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9916a341-m6x9gM.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/contact-form-7/includes/js/index.js
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:33] [class-ss-page.php:119] Checking Content Identical:0c8258ee3cbe887b0e77ff79db940fadfe56f95e===. Value: FALSE
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/build/scripts/index.js
+[2024-10-19 15:00:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 68
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99178e1e-hXtm1X.tmp
+[2024-10-19 15:00:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/kubio/build/scripts/index.js?simply_static_page=195
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/build/scripts/index.js?simply_static_page=195
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:103] Filesize: 41257 bytes
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/kubio/build/scripts/index.js
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99178e1e-hXtm1X.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/kubio/build/scripts/index.js
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:33] [class-ss-page.php:119] Checking Content Identical:2bbfe59f3ef34ced51fcba868bd2aba6d5e96b2f===. Value: FALSE
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/build/frontend/index.js
+[2024-10-19 15:00:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 68
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9918fdb3-5YWohv.tmp
+[2024-10-19 15:00:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/kubio/build/frontend/index.js?simply_static_page=196
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/build/frontend/index.js?simply_static_page=196
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:103] Filesize: 68860 bytes
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/kubio/build/frontend/index.js
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9918fdb3-5YWohv.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/kubio/build/frontend/index.js
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:33] [class-ss-page.php:119] Checking Content Identical:77d10b4664d2f822995804f764e5630b1d74e6d4===. Value: FALSE
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/feed/
+[2024-10-19 15:00:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 68
+[2024-10-19 15:00:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c991b825f-GIIKhs.tmp
+[2024-10-19 15:00:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/feed/?simply_static_page=197
+[2024-10-19 15:00:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/feed/?simply_static_page=197
+[2024-10-19 15:00:35] [class-ss-url-fetcher.php:103] Filesize: 18390 bytes
+[2024-10-19 15:00:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-19 15:00:35] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-10-19 15:00:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c991b825f-GIIKhs.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/feed/index.xml
+[2024-10-19 15:00:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:35] [class-ss-fetch-urls-task.php:159] Adding 13 URLs to the queue
+[2024-10-19 15:00:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:35] [class-ss-page.php:119] Checking Content Identical:db54f924856e0ffb46edf3d8851631292014fc8c===. Value: FALSE
+[2024-10-19 15:00:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/comments/feed/
+[2024-10-19 15:00:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 68
+[2024-10-19 15:00:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99346d52-XtyAvp.tmp
+[2024-10-19 15:00:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/comments/feed/?simply_static_page=198
+[2024-10-19 15:00:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/comments/feed/?simply_static_page=198
+[2024-10-19 15:00:36] [class-ss-url-fetcher.php:103] Filesize: 1674 bytes
+[2024-10-19 15:00:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-19 15:00:36] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-10-19 15:00:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99346d52-XtyAvp.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/comments/feed/index.xml
+[2024-10-19 15:00:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:36] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-10-19 15:00:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:36] [class-ss-page.php:119] Checking Content Identical:71d88ae3686aeda9aac60d0c8e0753d0864658db===. Value: FALSE
+[2024-10-19 15:00:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/build/block-library/style.css
+[2024-10-19 15:00:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 68
+[2024-10-19 15:00:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c994b44a2-GSykq8.tmp
+[2024-10-19 15:00:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/kubio/build/block-library/style.css?simply_static_page=199
+[2024-10-19 15:00:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/build/block-library/style.css?simply_static_page=199
+[2024-10-19 15:00:36] [class-ss-url-fetcher.php:103] Filesize: 187269 bytes
+[2024-10-19 15:00:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-19 15:00:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/kubio/build/block-library/style.css
+[2024-10-19 15:00:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c994b44a2-GSykq8.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/kubio/build/block-library/style.css
+[2024-10-19 15:00:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:36] [class-ss-page.php:119] Checking Content Identical:d07ab5eb87135258bb531a82f203120dd1a56e55===. Value: FALSE
+[2024-10-19 15:00:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-includes/css/dist/block-library/style.min.css
+[2024-10-19 15:00:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 68
+[2024-10-19 15:00:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c994d0fa2-NdSMQk.tmp
+[2024-10-19 15:00:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-includes/css/dist/block-library/style.min.css?simply_static_page=200
+[2024-10-19 15:00:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-includes/css/dist/block-library/style.min.css?simply_static_page=200
+[2024-10-19 15:00:36] [class-ss-url-fetcher.php:103] Filesize: 112427 bytes
+[2024-10-19 15:00:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-19 15:00:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2024-10-19 15:00:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c994d0fa2-NdSMQk.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-includes/css/dist/block-library/style.min.css
+[2024-10-19 15:00:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:36] [class-ss-page.php:119] Checking Content Identical:e23bc18ef1b0f78f7010e3c16e4c5e1f333248bd===. Value: FALSE
+[2024-10-19 15:00:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/contact-form-7/includes/css/styles.css
+[2024-10-19 15:00:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 68
+[2024-10-19 15:00:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c994e587f-gPuuds.tmp
+[2024-10-19 15:00:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/contact-form-7/includes/css/styles.css?simply_static_page=201
+[2024-10-19 15:00:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/contact-form-7/includes/css/styles.css?simply_static_page=201
+[2024-10-19 15:00:36] [class-ss-url-fetcher.php:103] Filesize: 2894 bytes
+[2024-10-19 15:00:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-19 15:00:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/contact-form-7/includes/css/styles.css
+[2024-10-19 15:00:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c994e587f-gPuuds.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/contact-form-7/includes/css/styles.css
+[2024-10-19 15:00:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:36] [class-ss-page.php:119] Checking Content Identical:dbc9c4139e49d0d9fb41b7191aad1a2db6c555fd===. Value: FALSE
+[2024-10-19 15:00:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/build/third-party-blocks/style.css
+[2024-10-19 15:00:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 68
+[2024-10-19 15:00:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c994f1749-zch3Fp.tmp
+[2024-10-19 15:00:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/kubio/build/third-party-blocks/style.css?simply_static_page=202
+[2024-10-19 15:00:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/build/third-party-blocks/style.css?simply_static_page=202
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:103] Filesize: 29110 bytes
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/kubio/build/third-party-blocks/style.css
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c994f1749-zch3Fp.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/kubio/build/third-party-blocks/style.css
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:37] [class-ss-page.php:119] Checking Content Identical:d176ca88befa452c9395e7f153b35427b0ac8d60===. Value: FALSE
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/themes/kubio//resources/theme/fse-base-style.css
+[2024-10-19 15:00:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 68
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99515ee7-iS2tfA.tmp
+[2024-10-19 15:00:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/themes/kubio//resources/theme/fse-base-style.css?simply_static_page=203
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/themes/kubio//resources/theme/fse-base-style.css?simply_static_page=203
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:103] Filesize: 4203 bytes
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/kubio//resources/theme/fse-base-style.css
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99515ee7-iS2tfA.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/themes/kubio//resources/theme/fse-base-style.css
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:37] [class-ss-page.php:119] Checking Content Identical:5dff7c0165a42acb5f687c6e7e09287a2d294057===. Value: FALSE
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-json/
+[2024-10-19 15:00:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 68
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/art-by-sapna/wp-json/
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-json/wp/v2/pages/208
+[2024-10-19 15:00:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 68
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/art-by-sapna/wp-json/wp/v2/pages/208
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/xmlrpc.php
+[2024-10-19 15:00:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 68
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/art-by-sapna/xmlrpc.php
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-json/oembed/1.0/embed
+[2024-10-19 15:00:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 68
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/art-by-sapna/wp-json/oembed/1.0/embed
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/circles.png
+[2024-10-19 15:00:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 68
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99527dbe-eZFeaL.tmp
+[2024-10-19 15:00:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/circles.png?simply_static_page=208
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/circles.png?simply_static_page=208
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:103] Filesize: 28083 bytes
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/kubio/lib/shapes/header-shapes/circles.png
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99527dbe-eZFeaL.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/kubio/lib/shapes/header-shapes/circles.png
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:37] [class-ss-page.php:119] Checking Content Identical:eb880996d91b79da0d679394d0f1f31012b91c15===. Value: FALSE
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/10degree-stripes.png
+[2024-10-19 15:00:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 68
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99537d71-E1Trif.tmp
+[2024-10-19 15:00:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/10degree-stripes.png?simply_static_page=209
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/10degree-stripes.png?simply_static_page=209
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:103] Filesize: 396896 bytes
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/kubio/lib/shapes/header-shapes/10degree-stripes.png
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99537d71-E1Trif.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/kubio/lib/shapes/header-shapes/10degree-stripes.png
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:37] [class-ss-page.php:119] Checking Content Identical:bf12a6f76030b97ee7cd369fa206532b78bc6c4b===. Value: FALSE
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/rounded-squares-blue.png
+[2024-10-19 15:00:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 68
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99549865-AFqEdY.tmp
+[2024-10-19 15:00:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/rounded-squares-blue.png?simply_static_page=210
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/rounded-squares-blue.png?simply_static_page=210
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:103] Filesize: 11005 bytes
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/kubio/lib/shapes/header-shapes/rounded-squares-blue.png
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99549865-AFqEdY.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/kubio/lib/shapes/header-shapes/rounded-squares-blue.png
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:37] [class-ss-page.php:119] Checking Content Identical:30a6c77769296cba4486246234eaf12fa9e14ec1===. Value: FALSE
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/many-rounded-squares-blue.png
+[2024-10-19 15:00:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 68
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99554ddf-emR0le.tmp
+[2024-10-19 15:00:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/many-rounded-squares-blue.png?simply_static_page=211
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/many-rounded-squares-blue.png?simply_static_page=211
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:103] Filesize: 42767 bytes
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/kubio/lib/shapes/header-shapes/many-rounded-squares-blue.png
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99554ddf-emR0le.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/kubio/lib/shapes/header-shapes/many-rounded-squares-blue.png
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:37] [class-ss-page.php:119] Checking Content Identical:ddf786aa340ebea16dd7f82a5fbaf91da4c50ca3===. Value: FALSE
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/two-circles.png
+[2024-10-19 15:00:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 68
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99563871-VyXYSB.tmp
+[2024-10-19 15:00:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/two-circles.png?simply_static_page=212
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/two-circles.png?simply_static_page=212
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:103] Filesize: 7268 bytes
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/kubio/lib/shapes/header-shapes/two-circles.png
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99563871-VyXYSB.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/kubio/lib/shapes/header-shapes/two-circles.png
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:37] [class-ss-page.php:119] Checking Content Identical:e401a8c0ac4d46ff75a701fd64d4c175d271258e===. Value: FALSE
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-2.png
+[2024-10-19 15:00:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 68
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9956dc3c-96ag7o.tmp
+[2024-10-19 15:00:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-2.png?simply_static_page=213
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-2.png?simply_static_page=213
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:103] Filesize: 27792 bytes
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/kubio/lib/shapes/header-shapes/circles-2.png
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9956dc3c-96ag7o.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-2.png
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:37] [class-ss-page.php:119] Checking Content Identical:f961034789c2308919bd40a23412f8db20b8bd70===. Value: FALSE
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-3.png
+[2024-10-19 15:00:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 68
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9957ba6b-8IgDz1.tmp
+[2024-10-19 15:00:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-3.png?simply_static_page=214
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-3.png?simply_static_page=214
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:103] Filesize: 61860 bytes
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/kubio/lib/shapes/header-shapes/circles-3.png
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9957ba6b-8IgDz1.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-3.png
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:37] [class-ss-page.php:119] Checking Content Identical:73c78fab639e5ecffa0b87cebc96800d83def916===. Value: FALSE
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-gradient.png
+[2024-10-19 15:00:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 68
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9958b45d-Wmvf8H.tmp
+[2024-10-19 15:00:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-gradient.png?simply_static_page=215
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-gradient.png?simply_static_page=215
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:103] Filesize: 174634 bytes
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/kubio/lib/shapes/header-shapes/circles-gradient.png
+[2024-10-19 15:00:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9958b45d-Wmvf8H.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-gradient.png
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:37] [class-ss-page.php:119] Checking Content Identical:6dc66153a33ff38f7c39b5a3d0a1ac6470c3b1a8===. Value: FALSE
+[2024-10-19 15:00:37] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 68 pages/files
+[2024-10-19 15:00:37] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-19 15:00:38] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-19 15:00:38] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-19 15:00:38] [class-ss-fetch-urls-task.php:69] Total pages: 99; Pages remaining: 48
+[2024-10-19 15:00:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-white-gradient.png
+[2024-10-19 15:00:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:48; Total: 99
+[2024-10-19 15:00:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c996ec4d9-4Ms0BZ.tmp
+[2024-10-19 15:00:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-white-gradient.png?simply_static_page=216
+[2024-10-19 15:00:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-white-gradient.png?simply_static_page=216
+[2024-10-19 15:00:38] [class-ss-url-fetcher.php:103] Filesize: 263201 bytes
+[2024-10-19 15:00:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/kubio/lib/shapes/header-shapes/circles-white-gradient.png
+[2024-10-19 15:00:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c996ec4d9-4Ms0BZ.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/kubio/lib/shapes/header-shapes/circles-white-gradient.png
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:39] [class-ss-page.php:119] Checking Content Identical:89bb3ba1e70ab20f3fe464021d5268f5843d3b2b===. Value: FALSE
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/waves.png
+[2024-10-19 15:00:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:47; Total: 99
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9970a0e0-1YM3px.tmp
+[2024-10-19 15:00:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/waves.png?simply_static_page=217
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/waves.png?simply_static_page=217
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:103] Filesize: 35762 bytes
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/kubio/lib/shapes/header-shapes/waves.png
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9970a0e0-1YM3px.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/kubio/lib/shapes/header-shapes/waves.png
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:39] [class-ss-page.php:119] Checking Content Identical:f376f1fb4dc3124b513358f7cf46dd686296ba1b===. Value: FALSE
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/waves-inverted.png
+[2024-10-19 15:00:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:46; Total: 99
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99719a1e-GydETA.tmp
+[2024-10-19 15:00:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/waves-inverted.png?simply_static_page=218
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/waves-inverted.png?simply_static_page=218
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:103] Filesize: 354573 bytes
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/kubio/lib/shapes/header-shapes/waves-inverted.png
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99719a1e-GydETA.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/kubio/lib/shapes/header-shapes/waves-inverted.png
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:39] [class-ss-page.php:119] Checking Content Identical:f2fb20d1bde958b776549c524a435af941e6e9f5===. Value: FALSE
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/dots.png
+[2024-10-19 15:00:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 99
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9972a0b6-YwBwdw.tmp
+[2024-10-19 15:00:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/dots.png?simply_static_page=219
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/dots.png?simply_static_page=219
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:103] Filesize: 91 bytes
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/kubio/lib/shapes/header-shapes/dots.png
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9972a0b6-YwBwdw.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/kubio/lib/shapes/header-shapes/dots.png
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:39] [class-ss-page.php:119] Checking Content Identical:ae46816aef16a36d68bdc380cb049cf95123e2c1===. Value: FALSE
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/left-tilted-lines.png
+[2024-10-19 15:00:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 99
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c997320a1-3th8Dw.tmp
+[2024-10-19 15:00:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/left-tilted-lines.png?simply_static_page=220
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/left-tilted-lines.png?simply_static_page=220
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:103] Filesize: 119 bytes
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/kubio/lib/shapes/header-shapes/left-tilted-lines.png
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c997320a1-3th8Dw.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/kubio/lib/shapes/header-shapes/left-tilted-lines.png
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:39] [class-ss-page.php:119] Checking Content Identical:870bb9d46e06419af489f8b2425425b808ea1cab===. Value: FALSE
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/right-tilted-lines.png
+[2024-10-19 15:00:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 99
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9973ed05-AjA27X.tmp
+[2024-10-19 15:00:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/right-tilted-lines.png?simply_static_page=221
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/right-tilted-lines.png?simply_static_page=221
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:103] Filesize: 102 bytes
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/kubio/lib/shapes/header-shapes/right-tilted-lines.png
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9973ed05-AjA27X.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/kubio/lib/shapes/header-shapes/right-tilted-lines.png
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:39] [class-ss-page.php:119] Checking Content Identical:766629e53408fef8d3d07fb717a39607b590488d===. Value: FALSE
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/right-tilted-strips.png
+[2024-10-19 15:00:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 99
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99747644-grceUX.tmp
+[2024-10-19 15:00:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/right-tilted-strips.png?simply_static_page=222
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/right-tilted-strips.png?simply_static_page=222
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:103] Filesize: 226532 bytes
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/kubio/lib/shapes/header-shapes/right-tilted-strips.png
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99747644-grceUX.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/kubio/lib/shapes/header-shapes/right-tilted-strips.png
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:39] [class-ss-page.php:119] Checking Content Identical:143afd8b51e41c1be4753a73d7a0dc377b33423c===. Value: FALSE
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/doodle.png
+[2024-10-19 15:00:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 99
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c997542b6-vA6k5P.tmp
+[2024-10-19 15:00:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/doodle.png?simply_static_page=223
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/doodle.png?simply_static_page=223
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:103] Filesize: 104067 bytes
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/kubio/lib/shapes/header-shapes/doodle.png
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c997542b6-vA6k5P.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/kubio/lib/shapes/header-shapes/doodle.png
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:39] [class-ss-page.php:119] Checking Content Identical:c98ba709ccdf35019687c728db72a800063a874d===. Value: FALSE
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/falling-stars.png
+[2024-10-19 15:00:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 99
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9975fab3-Hs6ykx.tmp
+[2024-10-19 15:00:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/falling-stars.png?simply_static_page=224
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/falling-stars.png?simply_static_page=224
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:103] Filesize: 99649 bytes
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/kubio/lib/shapes/header-shapes/falling-stars.png
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9975fab3-Hs6ykx.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/kubio/lib/shapes/header-shapes/falling-stars.png
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:39] [class-ss-page.php:119] Checking Content Identical:78b55b9b1e4839126f8389b657d26001d1ac84f6===. Value: FALSE
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/grain.png
+[2024-10-19 15:00:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 99
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9976b8ea-CAQzKo.tmp
+[2024-10-19 15:00:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/grain.png?simply_static_page=225
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/grain.png?simply_static_page=225
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:103] Filesize: 1906146 bytes
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/kubio/lib/shapes/header-shapes/grain.png
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9976b8ea-CAQzKo.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/kubio/lib/shapes/header-shapes/grain.png
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:39] [class-ss-page.php:119] Checking Content Identical:abe16768221c50db87c8c59007b425633efd1635===. Value: FALSE
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/poly1.png
+[2024-10-19 15:00:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 99
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99784d5b-TtpO3b.tmp
+[2024-10-19 15:00:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/poly1.png?simply_static_page=226
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/poly1.png?simply_static_page=226
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:103] Filesize: 177098 bytes
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/kubio/lib/shapes/header-shapes/poly1.png
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99784d5b-TtpO3b.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/kubio/lib/shapes/header-shapes/poly1.png
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:39] [class-ss-page.php:119] Checking Content Identical:434f25a5d9b77671cfaa6a3fdcd75c15c737d525===. Value: FALSE
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/poly2.png
+[2024-10-19 15:00:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 99
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c997937c0-Z1mpIK.tmp
+[2024-10-19 15:00:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/poly2.png?simply_static_page=227
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/poly2.png?simply_static_page=227
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:103] Filesize: 200720 bytes
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/kubio/lib/shapes/header-shapes/poly2.png
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c997937c0-Z1mpIK.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/kubio/lib/shapes/header-shapes/poly2.png
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:39] [class-ss-page.php:119] Checking Content Identical:5bd4d3dc52bd85c7ca6c1d7a40139367c09664fa===. Value: FALSE
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/wavy-lines.png
+[2024-10-19 15:00:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 99
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c997a242f-PgYMuI.tmp
+[2024-10-19 15:00:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/wavy-lines.png?simply_static_page=228
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/plugins/kubio/lib/shapes/header-shapes/wavy-lines.png?simply_static_page=228
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:103] Filesize: 167399 bytes
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/kubio/lib/shapes/header-shapes/wavy-lines.png
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c997a242f-PgYMuI.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/plugins/kubio/lib/shapes/header-shapes/wavy-lines.png
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:39] [class-ss-page.php:119] Checking Content Identical:57743d1bfd5ba26be76b251873619cc44508ddd1===. Value: FALSE
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/Banner1.jpg
+[2024-10-19 15:00:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 99
+[2024-10-19 15:00:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c997b07c5-BFpjdV.tmp
+[2024-10-19 15:00:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/Banner1.jpg?simply_static_page=229
+[2024-10-19 15:00:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/Banner1.jpg?simply_static_page=229
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:103] Filesize: 11580980 bytes
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/Banner1.jpg
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c997b07c5-BFpjdV.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/Banner1.jpg
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:40] [class-ss-page.php:119] Checking Content Identical:ab49bd0298f247fdc612a5f636e45bbcadc78bae===. Value: FALSE
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/1616294386_sapna_gupta_reflection_of_the_soul_18_x_24_acrylic_on_canvas.jpg
+[2024-10-19 15:00:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 99
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99840bd0-ebY4pH.tmp
+[2024-10-19 15:00:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/1616294386_sapna_gupta_reflection_of_the_soul_18_x_24_acrylic_on_canvas.jpg?simply_static_page=230
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/1616294386_sapna_gupta_reflection_of_the_soul_18_x_24_acrylic_on_canvas.jpg?simply_static_page=230
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:103] Filesize: 563414 bytes
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/1616294386_sapna_gupta_reflection_of_the_soul_18_x_24_acrylic_on_canvas.jpg
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99840bd0-ebY4pH.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/1616294386_sapna_gupta_reflection_of_the_soul_18_x_24_acrylic_on_canvas.jpg
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:40] [class-ss-page.php:119] Checking Content Identical:7c7d1958ffc9c51e2353ee00818080b63ce5beab===. Value: FALSE
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/Banner5.jpg
+[2024-10-19 15:00:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 99
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99851450-ClbRcr.tmp
+[2024-10-19 15:00:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/Banner5.jpg?simply_static_page=231
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/Banner5.jpg?simply_static_page=231
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:103] Filesize: 8877479 bytes
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/Banner5.jpg
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99851450-ClbRcr.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/Banner5.jpg
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:40] [class-ss-page.php:119] Checking Content Identical:ef7e9d9acb53d5eb8506bc7a9bc682f45518c42b===. Value: FALSE
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/hero.jpg
+[2024-10-19 15:00:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 99
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c998b0aed-6ydnPY.tmp
+[2024-10-19 15:00:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/hero.jpg?simply_static_page=232
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/hero.jpg?simply_static_page=232
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:103] Filesize: 174560 bytes
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/hero.jpg
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c998b0aed-6ydnPY.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/hero.jpg
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:40] [class-ss-page.php:119] Checking Content Identical:094e2391b98a67d9b11a297182c7b37911580af6===. Value: FALSE
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/icon7.png
+[2024-10-19 15:00:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 99
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c998c4f1d-V14IXC.tmp
+[2024-10-19 15:00:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/icon7.png?simply_static_page=233
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/icon7.png?simply_static_page=233
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:103] Filesize: 10077 bytes
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/icon7.png
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c998c4f1d-V14IXC.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/icon7.png
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:40] [class-ss-page.php:119] Checking Content Identical:2fd3e6930bc161f08935e94c1e15b5d187ec76c8===. Value: FALSE
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/icon5.png
+[2024-10-19 15:00:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 99
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c998d8e3b-YNWWMA.tmp
+[2024-10-19 15:00:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/icon5.png?simply_static_page=234
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/icon5.png?simply_static_page=234
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:103] Filesize: 14020 bytes
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/icon5.png
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c998d8e3b-YNWWMA.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/icon5.png
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:40] [class-ss-page.php:119] Checking Content Identical:a9c5d13583ef83860e0979bfe09f67407b3d0ece===. Value: FALSE
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/icon6.png
+[2024-10-19 15:00:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 99
+[2024-10-19 15:00:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c998ee533-I7Zozn.tmp
+[2024-10-19 15:00:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/icon6.png?simply_static_page=235
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/icon6.png?simply_static_page=235
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:103] Filesize: 13512 bytes
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/icon6.png
+[2024-10-19 15:00:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c998ee533-I7Zozn.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/icon6.png
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:41] [class-ss-page.php:119] Checking Content Identical:46136bd740602988a49449702311109cd52a7fce===. Value: FALSE
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-json/wp/v2/pages/168
+[2024-10-19 15:00:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 99
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/art-by-sapna/wp-json/wp/v2/pages/168
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/Banner4.jpg
+[2024-10-19 15:00:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 99
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9990e642-CrJKko.tmp
+[2024-10-19 15:00:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/Banner4.jpg?simply_static_page=237
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/Banner4.jpg?simply_static_page=237
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:103] Filesize: 14217302 bytes
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/Banner4.jpg
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9990e642-CrJKko.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/Banner4.jpg
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:41] [class-ss-page.php:119] Checking Content Identical:2d7cc48e8462821affdb42cb04b7352d990f5b63===. Value: FALSE
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/shiromani-kant-unsplash.jpg
+[2024-10-19 15:00:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 99
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c999a3819-samnsl.tmp
+[2024-10-19 15:00:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/shiromani-kant-unsplash.jpg?simply_static_page=238
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/shiromani-kant-unsplash.jpg?simply_static_page=238
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:103] Filesize: 90126 bytes
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/shiromani-kant-unsplash.jpg
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c999a3819-samnsl.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/shiromani-kant-unsplash.jpg
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:41] [class-ss-page.php:119] Checking Content Identical:bd25c38b1ab4720164a3a9a391f50b214a43e419===. Value: FALSE
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/david-kiriakidis-unsplash.jpg
+[2024-10-19 15:00:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 99
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c999b34e6-U20KE2.tmp
+[2024-10-19 15:00:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/david-kiriakidis-unsplash.jpg?simply_static_page=239
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/david-kiriakidis-unsplash.jpg?simply_static_page=239
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:103] Filesize: 51162 bytes
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/david-kiriakidis-unsplash.jpg
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c999b34e6-U20KE2.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/david-kiriakidis-unsplash.jpg
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:41] [class-ss-page.php:119] Checking Content Identical:ed00e7cfc420ca088870020924dd168432f7eec7===. Value: FALSE
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/jakob-owens-unsplash.jpg
+[2024-10-19 15:00:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 99
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c999bf054-84ZBzo.tmp
+[2024-10-19 15:00:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/jakob-owens-unsplash.jpg?simply_static_page=240
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/jakob-owens-unsplash.jpg?simply_static_page=240
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:103] Filesize: 55546 bytes
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/jakob-owens-unsplash.jpg
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c999bf054-84ZBzo.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/jakob-owens-unsplash.jpg
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:41] [class-ss-page.php:119] Checking Content Identical:af0536e4a0353b13f00c6f4b2c2cc08afb1ff731===. Value: FALSE
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/priscilla-du-preez-unsplash-e1666789644559.jpg
+[2024-10-19 15:00:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 99
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c999ca5b1-MeI3H0.tmp
+[2024-10-19 15:00:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/priscilla-du-preez-unsplash-e1666789644559.jpg?simply_static_page=241
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/priscilla-du-preez-unsplash-e1666789644559.jpg?simply_static_page=241
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:103] Filesize: 242494 bytes
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/priscilla-du-preez-unsplash-e1666789644559.jpg
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c999ca5b1-MeI3H0.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/priscilla-du-preez-unsplash-e1666789644559.jpg
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:41] [class-ss-page.php:119] Checking Content Identical:3101e194aecb2a99d36d1da20cfdce4e09519843===. Value: FALSE
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-json/wp/v2/pages/172
+[2024-10-19 15:00:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 99
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/art-by-sapna/wp-json/wp/v2/pages/172
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/bg.jpg
+[2024-10-19 15:00:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 99
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c999ddc96-u2hLGB.tmp
+[2024-10-19 15:00:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/bg.jpg?simply_static_page=243
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/bg.jpg?simply_static_page=243
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:103] Filesize: 36441 bytes
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/bg.jpg
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c999ddc96-u2hLGB.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/bg.jpg
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:41] [class-ss-page.php:119] Checking Content Identical:cca183617a8cdaaec92887dc49c4f31f2cf9cfa2===. Value: FALSE
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/img6.jpg
+[2024-10-19 15:00:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 99
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c999ea329-sP56hV.tmp
+[2024-10-19 15:00:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/img6.jpg?simply_static_page=244
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/img6.jpg?simply_static_page=244
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:103] Filesize: 123754 bytes
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/img6.jpg
+[2024-10-19 15:00:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c999ea329-sP56hV.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/img6.jpg
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:41] [class-ss-page.php:119] Checking Content Identical:7c7e3820702dfedfc95c5d322610ecd9a5938e55===. Value: FALSE
+[2024-10-19 15:00:42] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/category/uncategorized/
+[2024-10-19 15:00:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 99
+[2024-10-19 15:00:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99a01f49-B1dhCd.tmp
+[2024-10-19 15:00:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/category/uncategorized/?simply_static_page=245
+[2024-10-19 15:00:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/category/uncategorized/?simply_static_page=245
+[2024-10-19 15:00:43] [class-ss-url-fetcher.php:103] Filesize: 164035 bytes
+[2024-10-19 15:00:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-19 15:00:43] [class-ss-url-fetcher.php:233] New filename for static page: /category/uncategorized/index.html
+[2024-10-19 15:00:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99a01f49-B1dhCd.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/category/uncategorized/index.html
+[2024-10-19 15:00:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:44] [class-ss-fetch-urls-task.php:159] Adding 60 URLs to the queue
+[2024-10-19 15:00:44] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:44] [class-ss-page.php:119] Checking Content Identical:e414f7114f7ab6146572073d2fbafbb5ab7d59ce===. Value: FALSE
+[2024-10-19 15:00:44] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/2024/10/19/
+[2024-10-19 15:00:44] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 99
+[2024-10-19 15:00:44] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:44] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99c847ea-WIx9dq.tmp
+[2024-10-19 15:00:44] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/2024/10/19/?simply_static_page=246
+[2024-10-19 15:00:44] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/2024/10/19/?simply_static_page=246
+[2024-10-19 15:00:46] [class-ss-url-fetcher.php:103] Filesize: 130066 bytes
+[2024-10-19 15:00:46] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-19 15:00:46] [class-ss-url-fetcher.php:233] New filename for static page: /2024/10/19/index.html
+[2024-10-19 15:00:46] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99c847ea-WIx9dq.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/2024/10/19/index.html
+[2024-10-19 15:00:46] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:46] [class-ss-fetch-urls-task.php:159] Adding 53 URLs to the queue
+[2024-10-19 15:00:46] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:47] [class-ss-page.php:119] Checking Content Identical:23de35adb3eef31e6954281092abfbff2c9e41e2===. Value: FALSE
+[2024-10-19 15:00:47] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/2022/10/26/
+[2024-10-19 15:00:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 99
+[2024-10-19 15:00:47] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99f35e7f-n2SX7A.tmp
+[2024-10-19 15:00:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/2022/10/26/?simply_static_page=247
+[2024-10-19 15:00:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/2022/10/26/?simply_static_page=247
+[2024-10-19 15:00:48] [class-ss-url-fetcher.php:103] Filesize: 155484 bytes
+[2024-10-19 15:00:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-19 15:00:48] [class-ss-url-fetcher.php:233] New filename for static page: /2022/10/26/index.html
+[2024-10-19 15:00:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c99f35e7f-n2SX7A.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/2022/10/26/index.html
+[2024-10-19 15:00:48] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:49] [class-ss-fetch-urls-task.php:159] Adding 57 URLs to the queue
+[2024-10-19 15:00:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:49] [class-ss-page.php:119] Checking Content Identical:ae718b3f27db61ff662b201356a104456cda591f===. Value: FALSE
+[2024-10-19 15:00:49] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/vestibulum-ante-ipsum-primis/
+[2024-10-19 15:00:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 99
+[2024-10-19 15:00:49] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9a173610-qE07bd.tmp
+[2024-10-19 15:00:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/vestibulum-ante-ipsum-primis/?simply_static_page=248
+[2024-10-19 15:00:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/vestibulum-ante-ipsum-primis/?simply_static_page=248
+[2024-10-19 15:00:51] [class-ss-url-fetcher.php:103] Filesize: 147217 bytes
+[2024-10-19 15:00:51] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-19 15:00:51] [class-ss-url-fetcher.php:233] New filename for static page: /vestibulum-ante-ipsum-primis/index.html
+[2024-10-19 15:00:51] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9a173610-qE07bd.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/vestibulum-ante-ipsum-primis/index.html
+[2024-10-19 15:00:51] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:159] Adding 56 URLs to the queue
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:52] [class-ss-page.php:119] Checking Content Identical:da29a0c2bd1fc64211038d6bb2fd97f9ee9540e5===. Value: FALSE
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-includes/js/imagesloaded.min.js
+[2024-10-19 15:00:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 99
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9a44db24-fWpb9G.tmp
+[2024-10-19 15:00:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-includes/js/imagesloaded.min.js?simply_static_page=249
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-includes/js/imagesloaded.min.js?simply_static_page=249
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:103] Filesize: 5520 bytes
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/imagesloaded.min.js
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9a44db24-fWpb9G.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-includes/js/imagesloaded.min.js
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:52] [class-ss-page.php:119] Checking Content Identical:90b0adb37d70ffec5f9189c36bb0027c310c9502===. Value: FALSE
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-includes/js/masonry.min.js
+[2024-10-19 15:00:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 99
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9a45598c-rMad5G.tmp
+[2024-10-19 15:00:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-includes/js/masonry.min.js?simply_static_page=250
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-includes/js/masonry.min.js?simply_static_page=250
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:103] Filesize: 24138 bytes
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/masonry.min.js
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9a45598c-rMad5G.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-includes/js/masonry.min.js
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:52] [class-ss-page.php:119] Checking Content Identical:76778fd446e2ff2377588a7b4ac4d79f258427c9===. Value: FALSE
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-includes/js/jquery/jquery.masonry.min.js
+[2024-10-19 15:00:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 99
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9a462ea1-IInlkK.tmp
+[2024-10-19 15:00:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-includes/js/jquery/jquery.masonry.min.js?simply_static_page=251
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-includes/js/jquery/jquery.masonry.min.js?simply_static_page=251
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:103] Filesize: 1819 bytes
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.masonry.min.js
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9a462ea1-IInlkK.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-includes/js/jquery/jquery.masonry.min.js
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:52] [class-ss-page.php:119] Checking Content Identical:0e3709691bf96233766de30e2fd473b84166c5b6===. Value: FALSE
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-json/wp/v2/pages/170
+[2024-10-19 15:00:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 99
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/art-by-sapna/wp-json/wp/v2/pages/170
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/bg3.jpg
+[2024-10-19 15:00:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 99
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9a470c1a-gFtq6E.tmp
+[2024-10-19 15:00:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-content/uploads/2024/10/bg3.jpg?simply_static_page=253
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-content/uploads/2024/10/bg3.jpg?simply_static_page=253
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:103] Filesize: 84261 bytes
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/bg3.jpg
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9a470c1a-gFtq6E.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-content/uploads/2024/10/bg3.jpg
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:52] [class-ss-page.php:119] Checking Content Identical:b58937a018930fa11b85f959738cb26ac6a3a795===. Value: FALSE
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-includes/js/comment-reply.min.js
+[2024-10-19 15:00:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 99
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9a485c13-lGxUMi.tmp
+[2024-10-19 15:00:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/wp-includes/js/comment-reply.min.js?simply_static_page=254
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/wp-includes/js/comment-reply.min.js?simply_static_page=254
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9a485c13-lGxUMi.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/wp-includes/js/comment-reply.min.js
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:52] [class-ss-page.php:119] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/hello-world/feed/
+[2024-10-19 15:00:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 99
+[2024-10-19 15:00:52] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9a49a245-JnTH1M.tmp
+[2024-10-19 15:00:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/hello-world/feed/?simply_static_page=255
+[2024-10-19 15:00:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/hello-world/feed/?simply_static_page=255
+[2024-10-19 15:00:54] [class-ss-url-fetcher.php:103] Filesize: 1667 bytes
+[2024-10-19 15:00:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-19 15:00:54] [class-ss-url-fetcher.php:233] New filename for static page: /hello-world/feed/index.xml
+[2024-10-19 15:00:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9a49a245-JnTH1M.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/hello-world/feed/index.xml
+[2024-10-19 15:00:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:54] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-10-19 15:00:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:54] [class-ss-page.php:119] Checking Content Identical:c00d92ed31d4904bacd1caf2539ab879a3772eb8===. Value: FALSE
+[2024-10-19 15:00:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-json/wp/v2/posts/1
+[2024-10-19 15:00:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 99
+[2024-10-19 15:00:54] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/art-by-sapna/wp-json/wp/v2/posts/1
+[2024-10-19 15:00:54] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-19 15:00:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/donec-vitae-massa-enim-leo-eu/feed/
+[2024-10-19 15:00:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 99
+[2024-10-19 15:00:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9a664142-vPMrb9.tmp
+[2024-10-19 15:00:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/donec-vitae-massa-enim-leo-eu/feed/?simply_static_page=257
+[2024-10-19 15:00:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/donec-vitae-massa-enim-leo-eu/feed/?simply_static_page=257
+[2024-10-19 15:00:55] [class-ss-url-fetcher.php:103] Filesize: 819 bytes
+[2024-10-19 15:00:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-19 15:00:55] [class-ss-url-fetcher.php:233] New filename for static page: /donec-vitae-massa-enim-leo-eu/feed/index.xml
+[2024-10-19 15:00:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9a664142-vPMrb9.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/donec-vitae-massa-enim-leo-eu/feed/index.xml
+[2024-10-19 15:00:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:55] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-10-19 15:00:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:55] [class-ss-page.php:119] Checking Content Identical:b2ba9368c248fd4048b339a5f0ec3ae37690a685===. Value: FALSE
+[2024-10-19 15:00:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-json/wp/v2/posts/138
+[2024-10-19 15:00:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 99
+[2024-10-19 15:00:55] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/art-by-sapna/wp-json/wp/v2/posts/138
+[2024-10-19 15:00:55] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-19 15:00:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/aliquam-justo-neque-quis-eros/feed/
+[2024-10-19 15:00:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 99
+[2024-10-19 15:00:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9a77a0d8-WQTl4Z.tmp
+[2024-10-19 15:00:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/aliquam-justo-neque-quis-eros/feed/?simply_static_page=259
+[2024-10-19 15:00:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/aliquam-justo-neque-quis-eros/feed/?simply_static_page=259
+[2024-10-19 15:00:56] [class-ss-url-fetcher.php:103] Filesize: 819 bytes
+[2024-10-19 15:00:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-19 15:00:56] [class-ss-url-fetcher.php:233] New filename for static page: /aliquam-justo-neque-quis-eros/feed/index.xml
+[2024-10-19 15:00:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9a77a0d8-WQTl4Z.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/aliquam-justo-neque-quis-eros/feed/index.xml
+[2024-10-19 15:00:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:56] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-10-19 15:00:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:56] [class-ss-page.php:119] Checking Content Identical:feea1ffdea3d55ed42930dbe2591b46bc4b9d2ff===. Value: FALSE
+[2024-10-19 15:00:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-json/wp/v2/posts/136
+[2024-10-19 15:00:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 99
+[2024-10-19 15:00:56] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/art-by-sapna/wp-json/wp/v2/posts/136
+[2024-10-19 15:00:56] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-19 15:00:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/morbi-ut-massa-eget-dui-molestie/feed/
+[2024-10-19 15:00:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 99
+[2024-10-19 15:00:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9a870501-FdayXP.tmp
+[2024-10-19 15:00:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/morbi-ut-massa-eget-dui-molestie/feed/?simply_static_page=261
+[2024-10-19 15:00:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/morbi-ut-massa-eget-dui-molestie/feed/?simply_static_page=261
+[2024-10-19 15:00:57] [class-ss-url-fetcher.php:103] Filesize: 828 bytes
+[2024-10-19 15:00:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-19 15:00:57] [class-ss-url-fetcher.php:233] New filename for static page: /morbi-ut-massa-eget-dui-molestie/feed/index.xml
+[2024-10-19 15:00:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9a870501-FdayXP.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/morbi-ut-massa-eget-dui-molestie/feed/index.xml
+[2024-10-19 15:00:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:57] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-10-19 15:00:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:57] [class-ss-page.php:119] Checking Content Identical:07f592eded9145c822d022d2ccca9fbc837857fe===. Value: FALSE
+[2024-10-19 15:00:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-json/wp/v2/posts/134
+[2024-10-19 15:00:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 99
+[2024-10-19 15:00:57] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/art-by-sapna/wp-json/wp/v2/posts/134
+[2024-10-19 15:00:57] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-19 15:00:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/vestibulum-ante-ipsum-primis/feed/
+[2024-10-19 15:00:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 99
+[2024-10-19 15:00:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:00:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9a967848-3CILrj.tmp
+[2024-10-19 15:00:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/vestibulum-ante-ipsum-primis/feed/?simply_static_page=263
+[2024-10-19 15:00:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/vestibulum-ante-ipsum-primis/feed/?simply_static_page=263
+[2024-10-19 15:00:59] [class-ss-url-fetcher.php:103] Filesize: 816 bytes
+[2024-10-19 15:00:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-19 15:00:59] [class-ss-url-fetcher.php:233] New filename for static page: /vestibulum-ante-ipsum-primis/feed/index.xml
+[2024-10-19 15:00:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9a967848-3CILrj.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/vestibulum-ante-ipsum-primis/feed/index.xml
+[2024-10-19 15:00:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:00:59] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-10-19 15:00:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:00:59] [class-ss-page.php:119] Checking Content Identical:3cae0e87de3b44801301bbb1f03a88e5e3a5167d===. Value: FALSE
+[2024-10-19 15:00:59] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 51 of 99 pages/files
+[2024-10-19 15:00:59] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-19 15:01:01] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-19 15:01:01] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-19 15:01:01] [class-ss-fetch-urls-task.php:69] Total pages: 102; Pages remaining: 3
+[2024-10-19 15:01:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/category/uncategorized/feed/
+[2024-10-19 15:01:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 102
+[2024-10-19 15:01:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 15:01:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9ad75d89-8J0di0.tmp
+[2024-10-19 15:01:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/category/uncategorized/feed/?simply_static_page=264
+[2024-10-19 15:01:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/category/uncategorized/feed/?simply_static_page=264
+[2024-10-19 15:01:02] [class-ss-url-fetcher.php:103] Filesize: 18435 bytes
+[2024-10-19 15:01:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-19 15:01:02] [class-ss-url-fetcher.php:233] New filename for static page: /category/uncategorized/feed/index.xml
+[2024-10-19 15:01:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9ad75d89-8J0di0.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003/category/uncategorized/feed/index.xml
+[2024-10-19 15:01:02] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 15:01:02] [class-ss-fetch-urls-task.php:159] Adding 13 URLs to the queue
+[2024-10-19 15:01:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 15:01:03] [class-ss-page.php:119] Checking Content Identical:5f024ca55c1f194f4a0757267a886933acd19e84===. Value: FALSE
+[2024-10-19 15:01:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-json/wp/v2/categories/1
+[2024-10-19 15:01:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 102
+[2024-10-19 15:01:03] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/art-by-sapna/wp-json/wp/v2/categories/1
+[2024-10-19 15:01:03] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-19 15:01:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/art-by-sapna/wp-json/wp/v2/posts/127
+[2024-10-19 15:01:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 102
+[2024-10-19 15:01:03] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/art-by-sapna/wp-json/wp/v2/posts/127
+[2024-10-19 15:01:03] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-19 15:01:03] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 99 of 102 pages/files
+[2024-10-19 15:01:03] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-19 15:01:03] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-19 15:01:03] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-19 15:01:03] [class-ss-fetch-urls-task.php:69] Total pages: 102; Pages remaining: 0
+[2024-10-19 15:01:03] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 102 of 102 pages/files
+[2024-10-19 15:01:03] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-10-19 15:01:03] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-10-19 15:01:03] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-10-19 15:01:03] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-10-19 15:01:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9af11017-sx7LPY.tmp
+[2024-10-19 15:01:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/art-by-sapna/1729350064?simply_static_page=0
+[2024-10-19 15:01:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/art-by-sapna/1729350064?simply_static_page=0
+[2024-10-19 15:01:04] [class-ss-url-fetcher.php:103] Filesize: 111752 bytes
+[2024-10-19 15:01:04] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-10-19 15:01:04] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-10-19 15:01:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\BRAMHA~1\AppData\Local\Temp/6713c9af11017-sx7LPY.tmp to D:\Document\Programming\xampp\htdocs\art-by-sapna/wp-content/uploads\simply-static\temp-files/simply-static-1-1729350003\404/index.html
+[2024-10-19 15:01:04] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-10-19 15:01:05] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-10-19 15:01:05] [class-ss-page.php:119] Checking Content Identical:4230558c5c0feb605f9016aac65cc4ca064c6201===. Value: FALSE
+[2024-10-19 15:01:05] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-10-19 15:01:05] [class-ss-archive-creation-job.php:175] We've found our next task: create_zip_archive
+[2024-10-19 15:01:05] [class-ss-archive-creation-job.php:136] Current task: create_zip_archive
+[2024-10-19 15:01:05] [class-ss-archive-creation-job.php:153] Performing task: create_zip_archive
+[2024-10-19 15:01:05] [class-ss-create-zip-archive.php:71] Fetching list of files to include in zip
+[2024-10-19 15:01:05] [class-ss-create-zip-archive.php:80] Creating zip archive
+[2024-10-19 15:01:07] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://localhost/art-by-sapna/wp-content/uploads/simply-static/temp-files/simply-static-1-1729350003.zip">Click here to download</a>
+[2024-10-19 15:01:08] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-10-19 15:01:08] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-10-19 15:01:08] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-10-19 15:01:08] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-10-19 15:01:08] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-10-19 15:01:08] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-10-19 15:01:08] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-10-19 15:01:08] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:01:05
